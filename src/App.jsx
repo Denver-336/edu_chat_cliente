@@ -56,7 +56,7 @@ function App () {
 
   return (
     <Container style={{ backgroundColor: '#111b21' }}>
-      <Stack className='text-center'><h1>Chat Web</h1></Stack>
+      <Stack className='text-center text-light'><h1>Chat Web</h1></Stack>
       <Row className='my-3'>
         <Col>
           <ListGroup variant='flush'>
@@ -70,7 +70,7 @@ function App () {
         <Col>
           <Form onSubmit={handleSubmit}>
             <FormGroup>
-              <Form.Label>Usuario: <FormControl name='from' required /></Form.Label>
+              <Form.Label className='text-light'>Usuario: <FormControl name='from' required /></Form.Label>
               <FormControl name='message' required />
             </FormGroup>
             <div className='d-flex justify-content-end'><Button className='my-1' variant='success' type='submit'>Enviar</Button></div>
