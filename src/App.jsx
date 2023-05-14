@@ -55,7 +55,7 @@ function App () {
   }
 
   return (
-    <Container>
+    <Container style={{ backgroundColor: '#111b21' }}>
       <Stack className='text-center'><h1>Chat Web</h1></Stack>
       <Row className='my-3'>
         <Col>

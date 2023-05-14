@@ -58,7 +58,6 @@ html {
   scrollbar-color: rgb(170, 170, 170) #fff;
   scrollbar-color: var(--scrollbar-thumb) var(--background-body);
   scrollbar-width: thin;
-  background-color: #111b21;
 }
 
 @media (prefers-color-scheme: dark) {
