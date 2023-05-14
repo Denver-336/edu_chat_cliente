@@ -70,10 +70,10 @@ function App () {
         <Col>
           <Form onSubmit={handleSubmit}>
             <FormGroup>
-              <FormControl name='from' required />
+              <Form.Label>Usuario: <FormControl name='from' required /></Form.Label>
               <FormControl name='message' required />
             </FormGroup>
-            <Button className='my-1' variant='success' type='submit'>Enviar</Button>
+            <div className='d-flex justify-content-end'><Button className='my-1' variant='success' type='submit'>Enviar</Button></div>
           </Form>
         </Col>
       </Row>
