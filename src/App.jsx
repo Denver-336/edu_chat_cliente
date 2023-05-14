@@ -56,7 +56,7 @@ function App () {
 
   return (
     <Container style={{ backgroundColor: '#111b21' }}>
-      <Stack className='text-center text-light'><h1>Chat Web</h1></Stack>
+      <Stack className='text-center'><h1 className='text-light'>Chat Web</h1></Stack>
       <Row className='my-3'>
         <Col>
           <ListGroup variant='flush'>
